@@ -1,0 +1,66 @@
+/* START - Overwrites - Base Colours */
+
+:root {
+  --default: rgba(36, 38, 48, 1);
+  --icon-shadow: rgba(166, 166, 166, 0.40)
+}
+
+/*body .introwrap_define {color: var(--default) !important;}*/
+body .module_16975399790815 {background: radial-gradient(50% 50% at 50% 50%, #FFF 0%, #F6F5F5 100%);}
+body .sr-padding-full {background: linear-gradient(180deg, #F6F5F5 0%, #FFF 4.13%);}
+
+p {color: #555555;}
+
+body .sr-two-col-toc-01 nav .toc-nav-heading svg {
+    background-color: var(--default) !important;
+    fill: transparent;
+    border-radius: 4px;
+    box-shadow: -8.213px 4.928px 12.32px 0 var(--icon-shadow);
+    padding: 5px;
+}
+
+h4 {
+    color: #242630;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.18px;
+    text-transform: uppercase;
+    border-left: 4px solid var(--default)!important;
+}
+
+body .sr-two-col-toc-01 nav ul li.active a {
+    border-left: 4px solid var(--default) !important;
+    color: var(--default) !important;
+}
+
+body .sr-two-col-toc-01 .seperation-border {
+    background-color: var(--default) !important;
+    height: 60px;
+    width: 8px;
+    box-shadow: -8.213px 4.928px 12.32px 0 var(--icon-shadow);
+}
+
+body .sr-two-col-toc-01 .quote-quote p {
+    color: var(--default) !important;
+}
+
+body .sr-two-col-toc-01 .toc-item ul li:before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32" fill="none"><path d="M27.7075 16.7074L18.7075 25.7074C18.5199 25.8951 18.2654 26.0005 18 26.0005C17.7346 26.0005 17.4801 25.8951 17.2925 25.7074C17.1049 25.5198 16.9994 25.2653 16.9994 24.9999C16.9994 24.7346 17.1049 24.4801 17.2925 24.2924L24.5863 16.9999H5C4.73478 16.9999 4.48043 16.8946 4.29289 16.7071C4.10536 16.5195 4 16.2652 4 15.9999C4 15.7347 4.10536 15.4804 4.29289 15.2928C4.48043 15.1053 4.73478 14.9999 5 14.9999H24.5863L17.2925 7.70745C17.1049 7.5198 16.9994 7.26531 16.9994 6.99995C16.9994 6.73458 17.1049 6.48009 17.2925 6.29245C17.4801 6.1048 17.7346 5.99939 18 5.99939C18.2654 5.99939 18.5199 6.1048 18.7075 6.29245L27.7075 15.2924C27.8005 15.3853 27.8742 15.4956 27.9246 15.617C27.9749 15.7384 28.0008 15.8685 28.0008 15.9999C28.0008 16.1314 27.9749 16.2615 27.9246 16.3829C27.8742 16.5043 27.8005 16.6146 27.7075 16.7074Z" fill="currentColor"/></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+
+.define {--default: #87AC48;}
+.design {--default: #A85F9C;}
+.deliver {--default: #4691A0;}
+.drive {--default: #00426C;}
+
+/* END - Overwrites - Base Colours */
